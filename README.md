@@ -1,3 +1,10 @@
+
+![RADMC-3D Synthetic Dust Emission](synthetic_dust_100um.png)
+
+This image shows the simulated thermal emission
+from a three-dimensional dust cloud at 100 microns,
+calculated using RADMC-3D.
+
 # RADMC-3D: Interstellar Dust Simulation
 
 ## Overview
@@ -36,9 +43,3 @@ This is an educational proof-of-concept simulation. Dust opacity is simplified, 
 ## Simulation Results
 
 ### Synthetic Dust Emission at 100 Microns
-
-![RADMC-3D Synthetic Dust Emission](synthetic_dust_100um.png)
-
-This image shows the simulated thermal emission
-from a three-dimensional dust cloud at 100 microns,
-calculated using RADMC-3D.
