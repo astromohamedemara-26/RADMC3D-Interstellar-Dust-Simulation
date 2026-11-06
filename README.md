@@ -43,3 +43,34 @@ This is an educational proof-of-concept simulation. Dust opacity is simplified, 
 ## Simulation Results
 
 ### Synthetic Dust Emission at 100 Microns
+## Simulation Results
+
+### 1. Dust Temperature Distribution
+
+The dust temperature distribution was calculated using the RADMC-3D Monte Carlo radiative transfer method.
+
+![Dust Temperature Distribution](dust_temperature.png)
+
+The simulation shows radiative heating of the surrounding dust by a central solar-like star. Dust temperatures generally decrease with increasing distance from the radiation source.
+
+### 2. Synthetic Thermal Dust Emission at 100 μm
+
+![Synthetic Dust Emission](synthetic_dust_100um.png)
+
+This synthetic image represents the modeled thermal dust emission at a wavelength of 100 μm.
+
+### 3. Multi-Wavelength Dust Emission
+
+![Multi-Wavelength Dust Emission](multi_wavelength_dust.png)
+
+Synthetic emission maps were generated at three wavelengths:
+
+- **10 μm:** Emission is concentrated toward the warmer central region.
+- **100 μm:** The emission extends over a larger region.
+- **1000 μm:** The modeled emission appears more spatially extended.
+
+These results demonstrate the wavelength dependence of thermal dust emission within the adopted model.
+
+### Scientific Limitations
+
+This is an educational proof-of-concept simulation. The dust density distribution is prescribed rather than dynamically evolved, and the dust opacity model is simplified. Further numerical convergence tests and physical validation are required before drawing research-level conclusions.
